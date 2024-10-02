@@ -23,7 +23,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            lukasmontesgarcia/kube-news:v1
-            lukasmontesgarcia/kube-news:latest
+            lukasmontesgarcia/kube-news:${{github.run.number}}
           
       
