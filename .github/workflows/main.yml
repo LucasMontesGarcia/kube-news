@@ -23,7 +23,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            lucasmontesgarcia/kube-news:v1
-            lucasmontesgarcia/kube-news:latest
+            lukasmontesgarcia/kube-news:v1
+            lukasmontesgarcia/kube-news:latest
           
       
