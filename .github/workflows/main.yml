@@ -39,7 +39,7 @@ jobs:
       - name: Deploy to Kubernetes cluster
         uses: Azure/k8s-deploy@v4.9
         with:
-          images: fabricioveronez/live-kube-news:${{github.run_number}}
+          images: fabricioveronez/live-kube-news
           manifests:
             k8s/deployment.yaml
           
