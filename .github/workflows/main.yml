@@ -23,6 +23,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            ${{secrets.DOCKERHUB_TAG}}
+            ${{secrets.DOCKERHUB_TAG}}:${{github.run_number}}
           
       
